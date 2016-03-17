@@ -31,6 +31,8 @@ if( !in_array( $_SESSION["Website_Lang"] , array("ar","en"))) {
     }
 
 }
+else
+    $_SESSION["Website_Lang"] = $_SESSION["Website_Lang"] ;
 
 
 
