@@ -8,7 +8,7 @@
 // Start the session
 session_start();
 
-if( !in_array( $_SESSION["Website_Lang"] , array("ar","en"))) {
+if( !in_array($_SESSION["Website_Lang"] , array("ar","en"))) {
 
     /*
      * Get the default user language
@@ -31,8 +31,7 @@ if( !in_array( $_SESSION["Website_Lang"] , array("ar","en"))) {
     }
 
 }
-else
-    $_SESSION["Website_Lang"] = $_SESSION["Website_Lang"] ;
+
 
 
 
